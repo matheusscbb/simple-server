@@ -1,0 +1,23 @@
+{
+  "name": "simple-server",
+  "version": "1.0.0",
+  "description": "A simple server to return a default product list",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon src/server.js"
+  },
+  "keywords": [
+    "server",
+    "resquest",
+    "get"
+  ],
+  "author": "matheus mesquita - matheus.mesquita@stoom.com.br",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.1"
+  }
+}
